@@ -2,7 +2,7 @@
 
 ## 演示影片▼
 
-[![Attack on Virus](https://i.ytimg.com/vi/5-VTERvj7lQ/maxresdefault.jpg)](http://www.youtube.com/watch?v=5-VTERvj7lQ "Tap")
+[![Attack on Virus](https://raw.githubusercontent.com/XUGuanWei/Attack-on-Virus/master/Attack%20on%20Virus.png)](http://www.youtube.com/watch?v=5-VTERvj7lQ "Tap")
 
 ## 遊戲規則▼
 
@@ -12,7 +12,7 @@
 
 HP = 100
 
-![image](https://i.imgur.com/LASQmAS.png)
+![image](https://raw.githubusercontent.com/XUGuanWei/Attack-on-Virus/master/assets/Nigger/virus.png)
 
 ▲病毒  取得時加1分，病毒掉落地板減20HP
 
