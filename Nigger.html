@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!--
+	mmmmmmmddmmdddmmmmmmmdmmmmmmmmmmmmmmddmmmmmmmmmmmmmmdddddddddmmddmmmmddddmmmmmmmmmmmmmddddmmddmmmmmm
+	mmmmmmmddmmddmmmddmmmdmmmmmmmmmmmmmmmmmmmdmmmddmddddddddddmmmdmmmdmmmmmdddmmmmmdmmmddmmmddmmddmmmmmm
+	mmmmmmmddmmmmmddmmmmdmmmmmmmmmmmmmmdddmddmddddmddddddddddmddmmmmmmddmmmmmdmmmmmmdmmmdddmmmmmddmmmmmm
+	mmmmmmmdddmmdddmmmmdmmmmmmdmmmmmdddmmmmmddmdddddmdmddmdddmdddddmmmmmmmmmmmdmmmmmmmmmmmdddmmdddmmmmmm
+	mmmmmmmmddmdddmmmmmdmmmmmdmmmmddmdddmmddmdddddddddddmddddmmdddddddmmdmmmmmmmmmmmmdmmmmmdddmddmmmmmmm
+	mmmmmdmmddddmmmdmmmdmmmmmdmmdddddddddddddddddddddmddddddmdmddddddddmdmmmmmmdmmmmmdmmmdmmmdddmmmdmmmm
+	mmmmmddmmddmmdddmmmdmmmmmdmmdddddddddddddhhddhyhhhhhyyyhhdddddddhdddddmmmmmdmmmmmdmmmddmmmdmmmddmmmm
+	mmmmmdddmmmmdddmmmmdmmmmmddhhdhyyssssyyysoosssoooosssssyyydmddddhddddddmmmmdmmmmmdmmmmddmmmmmdddmmmm
+	mmmmmmdddmmmddmmmmmdmmmmmddhhyssssssssssooooooooosssssssyyyddddhhhdddmdmmmmdmmmmmdmmmmmddmmmdddmmmmm
+	mmmmmmmdddmddmmmmmmdmmmmmhhhysssoo++//////++++ooosssssssyyyddhhhhhhddddmmmmmmmmmmdmmmmmddmmdddmmmmmm
+	mmmmmdmmmddddmmdmmmdmmmmdhhys+:-...----------....-:/+osyyyyhhhhhhhhddddmmmdmmmmmmmmmddmmddddmmmdmmmm
+	mmmmmddmmmmdmmmddmmmdmdddhs:..-/++++ooooooo+++++//:-...:/oshhhhyhyyhhdddmdmmmmmmdmmmddmmmdmmmdddmmmm
+	mmmmmmdddmmmmmdddmmmmmmmd+../+oooooooooooooooooooooo++/:-..-:+oyyyyhhdhddmmmmmmmmmmmdddmmmmmdddmmmmm
+	mmmmmmmddddmmmddmmmmmdmd/.:+ooooooooooooooooossssssoooooo++/-../ssyyhdhddmmmmmmmmmmmdddmmmddddmmmmmm
+	mmmmmmmmmddddmddmmdmmmmy.+sssssosoooooosyyyyyyyyyyhhdyossssoo+oy++syyhhdmmmmmmmmmmmmmddmddddmmmmmmmm
+	mmmmmmmmmmmdddddmmddmmmmhyo+++ossyyhhhyhyssoooo++++omhsyyyssyyyyhsosyhhhmmmmmmmmmddmmdddddmmmmmmmmmm
+	mmmmmmmmdmmmmmddmmdddmmms+/:-/ooosodhyhhysooo++++++odsssooooossyyyhhdyhdmmmdmmmmdddmmddmmmmddmmmmmmm
+	mmmmmmmmmdddmmmmmmdddmmmso+/++ooo+sdysshysooooooo++shsssssoooyyhhhhyhyymmmmmmmmmddmmmmmmddddmmmmmmmm
+	mmmmmmmmmmmdddddmmmdddmmhooooooooohhsssyhysoooooooshysssooooydhhhhhysyymmmmmdmmdddmmmdddddmmmmmmmmmm
+	mmmmmmmmmmmmmdddddddddmmhyssssssyyhysosyhhyyyyyyyysssssssssohhhhhhhysyhmmmdddmmdddddddddmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmdddddmdysssyyyyhyo+/oshyyddhyyssssssssssssdhhhddysyhmmmdddmmdddddmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmdmmmmmmmmmmdssysssysysoosyyssyyyoooooooossyyssdddyyyyhdmmmdddmmmmmmmmmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmdddddddmmmhhsoooyyhhhhhdhyyyssysooooooooosyyoyhyyyhmmmmdddmmmmdddddddmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmddddddddddsooshhdddddddddhhysyssssooooosyhdsoyhdmmmmddddddddddddmmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmmmmmmmyssyhddhhhhhyhhhdddhyssosssssyhhhddhdmmmmmddddmmmmmmmmmmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmmmmmmmhsshdhhhhhyyhhhhhhddyooossssshhhdddddddmmmmmmmdddmmmmmmmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmmmmmddyssyhhyyhysssyyyhhhdhsssssssshhdddddoddddmmmmmmmdddddddmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmmmmmmmhysyyhyysssssyhhhyyyhysssssyyhhdhhd+/dddddddmmmmmddddddddddddddmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmdddddmmhyyyyhhhhhhhhhhysssyyhyyyyhhhhhhh:`yddddddddmmmmddddddddddddddddddddmmm
+	mmmmmmmmmmmmmmmmmmdddddddddmmmddhyssssssssssssssyyyhhhhhhhhhs.`:dddddddddmmmmddddddddddddddddddddddd
+	mmmmmmmmmmmmmdddddddddddddmmmmmmmdhyysssssssyyhhhhhhhhhhhhh/ `.hmmmmmmddddmmmmmddddddddddddddddddddd
+	mddddddddddddddddddddddddmmddmmmmmddddddddddddddddhhhhhhy+` ..+mmmmmmmmmmmmmmmmmmmmmdmmdmdmmmmdddddd
+	dddddddddddddddddmddmmmmmmmmmmmmmmm/ydddmddddddddddhhhs/`  ..-dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdddddd
+	ddddddddmmddmmmmmmmmmmmmmmmmmmmmmmm-`./oydddddddddhh+:`   `.-hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdd
+	dddddmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm+.   `-+syyssdo:.-s:  `..ymmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmy.``+hdddhhhho:-:shd/ `.ommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd.`shdmmdddhhhhhddddy/`:dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+	mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-././mmmmdddddddy-.../hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+-->
+<html name = "COVID-19">
+<head >
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>Nigger</title>
+<!-- write your code here -->
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="./ndgmr.Collision.js"></script>
+<script src="Nigger.js?1589722152583"></script>
+<link rel="stylesheet" href="./css/index.css">
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("60523E4F619FF74781C197D0D274347B");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.Nigger();
+	stage = new lib.Stage(canvas);
+	stage.addChild(exportRoot);	
+
+
+	const ATK = 20 //傷害
+	const CNY = 5 //補血
+	const SPEED = 10; //腳色速度
+	let Hp = 100; //血量
+	let Positions = 1; //方向判斷
+	let isKeydown = false; //是否按下鍵盤
+	let winNum = 0;  //分數
+	let isStart = false;
+
+
+	var Nigger = new lib.NiggerUser();  //放置腳色
+	Nigger.x = 168;
+	Nigger.y = 134.5;
+	exportRoot.addChild(Nigger);
+
+	let loadint = 0;	//目前載入進度
+	const sounds = [
+		{src:"./assets/play.mp3", id:"play"},
+		{src:"./assets/coin.mp3", id:"coin"},
+		{src:"./assets/Pig.mp3", id:"Pig"},
+		{src:"./assets/Fire.mp3", id:"Fire"},
+		{src:"./assets/bg.mp3", id:"bg"},
+	];
+	createjs.Sound.alternateExtensions = ["mp3"];
+	createjs.Sound.addEventListener("fileload", (e)=>{
+		loadint++
+		if(loadint === sounds.length){
+			document.querySelector(".loading").style.display = 'none';
+			bgAudio = createjs.Sound.play("bg", {loop:-1});
+			bgAudio.volume = 0.2;
+		}
+	});
+	createjs.Sound.registerSounds(sounds, "./");
+
+
+
+	//產生錢錢
+	let timeMoney = setInterval(()=>{
+		if(!isStart)return;
+		let Money = new lib.Money();
+		Money.x = Math.floor(Math.random() * (900 - 100 + 1) + 100);
+		Money.y = -100;
+		exportRoot.addChildAt(Money,1);
+		createjs.Tween.get(Money)
+		.to({y: 500}, 2500)
+		.call(()=>{
+			exportRoot.removeChild(Money);
+
+		})
+		.addEventListener("change",()=>{
+			let hit = ndgmr.checkRectCollision(Money,Nigger);//錢與腳色碰撞
+			if(hit){
+				Hp += CNY;
+				if(Hp <=100){						//未滿血才作用
+					document.querySelector(".hp").style.width = `${Hp}%`;
+				}
+				createjs.Sound.play("Pig")
+				createjs.Tween.removeTweens(Money);//移除人民幣動畫
+				exportRoot.removeChild(Money);//移除元件
+			}
+		})
+	},3456)
+
+
+	//產生病毒
+	//亂數 * (最大值 - 最小值 + 1) + 最小值
+	let timeVirus= setInterval(()=>{
+		if(!isStart) return; 
+		let Virus = new lib.Virus();
+		Virus.x = Math.floor(Math.random() * (900-100 + 1) + 100);
+		Virus.y = -100;
+		exportRoot.addChildAt(Virus,1);
+
+		createjs.Tween.get(Virus)
+		.to({y: 500}, 2500)
+		.call(()=>{
+			//console.log("沒吃到")
+			exportRoot.removeChild(Virus);
+			Hp -= ATK;
+			document.querySelector(".hp").style.width = `${Hp}%`;
+		})
+	
+		.addEventListener("change", ()=>{
+			let hit = ndgmr.checkRectCollision(Virus,Nigger);//病毒與腳色碰撞
+			if(hit){
+				createjs.Sound.play("coin")
+				createjs.Tween.removeTweens(Virus);//移除病毒動畫
+				exportRoot.removeChild(Virus);//移除元件
+				winNum ++;
+				document.querySelector(".winNum").innerHTML = winNum;
+			}
+		})
+	}, 500)
+
+
+	//開始按鈕
+	document.querySelector(".gamePlayBtn").addEventListener("click",()=>{
+		createjs.Sound.play("play")
+		isStart = true;
+		document.querySelector(".gamePlayBtn").style.display = "none";
+		window.addEventListener("keydown", keydownMoveFn);
+		window.addEventListener("keyup", keyupMoveFn);
+	})
+
+	//重新開始
+	document.querySelector(".resetPlay").addEventListener("click",()=>{
+		window.location.reload();
+	})
+
+
+	//腳色移動
+	//左邊37 右邊39
+	function keydownMoveFn(e){
+		//console.log(e.keyCode);
+		if(isKeydown) return;		
+		if(e.keyCode===37 || e.keyCode===39){			
+			isKeydown = true;
+			Positions = e.keyCode === 39 ? 1 : -1;
+			Nigger.gotoAndPlay("run");
+		}
+
+	}
+	function keyupMoveFn(e){
+		isKeydown = false;		
+		Nigger.gotoAndPlay("stop");
+	}
+
+
+	createjs.Ticker.addEventListener("tick",tickFn)
+	function tickFn(){	
+		if(Hp <= 0){
+			clearInterval(timeMoney)
+			clearInterval(timeVirus)
+			exportRoot.removeChild(Nigger);
+			createjs.Sound.play("Fire")
+			Nigger.gotoAndPlay("dal");
+			document.querySelector(".over").style.display = "flex"
+			window.removeEventListener("keydown", keydownMoveFn)
+			window.removeEventListener("keyup", keyupMoveFn)
+			createjs.Ticker.removeEventListener("tick", tickFn)
+		}
+		if(!isKeydown) return;
+		Nigger.x += SPEED * Positions;
+		Nigger.scaleX = Positions;
+	}
+
+
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	function makeResponsive(isResp, respDim, isScale, scaleType) {		
+		var lastW, lastH, lastS=1;		
+		window.addEventListener('resize', resizeCanvas);		
+		resizeCanvas();		
+		function resizeCanvas() {			
+			var w = lib.properties.width, h = lib.properties.height;			
+			var iw = window.innerWidth, ih=window.innerHeight;			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+			if(isResp) {                
+				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(iw<w || ih<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = iw; lastH = ih; lastS = sRatio;            
+			stage.tickOnUpdate = false;            
+			stage.update();            
+			stage.tickOnUpdate = true;		
+		}
+	}
+	makeResponsive(false,'both',false,1);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="app">
+		<div class="loading"></div>
+		<h1 class="winNum">0</h1>
+		<a class="gamePlayBtn"><img src="./assets/play1.png" alt=""></a>
+		<div class="over">
+			<div class="box">
+				<img src="./assets/gameover.png" alt="">
+				<a class="resetPlay"><img src="./assets/play1.png" alt=""></a>
+			</div>
+		</div>
+
+		<div class="hpBar">
+			<h2>HP</h2>
+			<div class="hpBox">
+				<div class="hp"></div>
+			</div>
+		</div>	
+
+		<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1280px; height:720px">
+			<canvas id="canvas" width="1280" height="720" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+			<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1280px; height:720px; position: absolute; left: 0px; top: 0px; display: block;">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
