@@ -16,7 +16,7 @@ HP = 100
 
 ▲病毒  取得時加1分，病毒掉落地板減20HP
 
-![image](https://i.imgur.com/jbrnyYs.png)
+![image](https://raw.githubusercontent.com/XUGuanWei/Attack-on-Virus/master/assets/CNY.png)
 
 ▲錢幣 補血道具，取得時加5HP
 
